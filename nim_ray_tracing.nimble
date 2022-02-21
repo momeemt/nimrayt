@@ -11,3 +11,4 @@ bin           = @["nim_ray_tracing"]
 # Dependencies
 
 requires "nim >= 1.6.2"
+requires "pnm >= 2.1.1"
