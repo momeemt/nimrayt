@@ -12,3 +12,4 @@ bin           = @["nim_ray_tracing"]
 
 requires "nim >= 1.6.2"
 requires "pnm >= 2.1.1"
+requires "arraymancer >= 0.7.10"
