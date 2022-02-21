@@ -38,8 +38,8 @@ proc flat (pixels: seq[seq[RGB]]): seq[uint8] =
 proc write* (img: Image) =
   let ppm = pnm.newPPM(
     pnm.ppmFileDescriptorP6,
-    img.height.int,
     img.width.int,
+    img.height.int,
     255,
     img.pixels.flat
   )
